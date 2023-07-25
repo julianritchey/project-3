@@ -13,8 +13,8 @@ Project 3 (Capstone) for FinTech bootcamp.
 
 ## Project description
 Investor's Dream v3.0 will provide users two primary features:
-- The ability to create custom strategies.
-- The ability to subscribe to notifications from custom or pre-existing strategies on a monthly or yearly basis.
+- The ability to create custom trading strategies.
+- The ability to subscribe to notifications from custom or pre-existing trading strategies on a monthly or yearly basis.
 
 ### Strategy creation
 Users will be able to create their own strategies using a variety of indicators and custom-defined conditions, such as:
@@ -36,12 +36,12 @@ Users will be able to subscribe to either a strategy they've created or a strate
   - Standard deviation
 
 ## Questions to answer
-How can an application draw in first-time investors?
-How can an application facilitate investment decisions?
-How can an application improve portfolio performance?
-How can an application monetize its features/services?
-How can an application facilitate fee transactions for features/services?
-How can a company make an initial public offering on blockchain?
+- How can an application draw in first-time investors?
+- How can an application facilitate investment decisions?
+- How can an application improve portfolio performance?
+- How can an application monetize its features/services?
+- How can an application facilitate fee transactions for features/services?
+- How can a company make an initial public offering on blockchain?
 
 ## Datasets to be used
 - Historic market data
