@@ -1,40 +1,56 @@
-# Feature Proposal
-Strategy Selector
+# Project Proposal
+Project 3 (Capstone) for FinTech bootcamp.
 
-## What is it?
-The Strategy Selector will allow users to activate or deactivate auto-trading (bot) strategies as they please. The feature will encorporate the following:
-- Ability to activate a strategy on any ticker of the user's choosing.
-  - User may select which exchange to use
-- Ability to backtest a strategy on any ticker of the user's choosing.
-  - If possible, user may select which exchange to use
-- Display strategy details.
-  - Timeframe (`1h`, `1D`, `HTF`, `LTF`, etc.)
-  - Indicators utilized, if applicable (`BB`, `EMA`, `MA`, etc.)
-  - Methodology (buy upon retest of market structure break, sell upon swing failure pattern, etc.)
-- Display details regarding backtests performed for each strategy.
+## Project title
+**Investor's Dream v3.0**
+
+## Team members
+- Andrea Delgadillo Tomasevich
+- Dmitry Chalganov
+- John Yin
+- Julian Ritchey
+- Wanlin Li
+
+## Project description
+Investor's Dream v3.0 will provide users two primary features:
+- The ability to create custom strategies.
+- The ability to subscribe to notifications from custom or pre-existing strategies on a monthly or yearly basis.
+
+### Strategy creation
+Users will be able to create their own strategies using a variety of indicators and custom-defined conditions, such as:
+- Timeframe (`1h`, `1D`, `1M`, etc.)
+- Indicators utilized, if applicable (`BB`, `EMA`, `VOL`, etc.)
+- Methodology (buy upon retest of market structure break, sell upon swing failure pattern, etc.)
+
+### Strategy subscription
+Users will be able to subscribe to either a strategy they've created or a strategy another user has created. The feature may include the following:
+- The ability to backtest a strategy on any asset of the user's choosing.
+- The ability to subscribe to notifications from strategies on any asset of the user's choosing.
+- A display of strategy details, such as:
+  - Title
+  - Description/methodology (buy upon retest of market structure break, sell upon swing failure pattern, etc.)
+- A display of details relating to a completed strategy backtest, such as:
   - Max performance
   - Min performance
   - Sharpe ratio
   - Standard deviation
-- Display details regarding strategies backtested for each ticker.
-  - Same details as strategy backtests
-  - Recommended strategies
 
-## Who is it for?
-The Strategy Selector is for users interested in using trading bots for their investments. Users may be interested in short-, mid- or long-term trading and should have strategies available to them for any timeframe.
+## Questions to answer
+How can an application draw in first-time investors?
+How can an application facilitate investment decisions?
+How can an application improve portfolio performance?
+How can an application monetize its features/services?
+How can an application facilitate fee transactions for features/services?
+How can a company make an initial public offering on blockchain?
 
-## Where will it be located?
-The Strategy Selector should be placed in one of two locations within the application:
-- Separate page for bot trading.
-- Same page as manual trading.
+## Datasets to be used
+- Historic market data
+- User investments
+- Trading indicators
 
-## How will it be implemented?
-The Strategy Selector will require the following server-side implementations:
-- Application-wide database of strategies and backtest details.
-- User-specific database of active strategies and associated exchange accounts.
-- Application-wide API connections to various exchanges.
-
-The Strategy Selector will require the following client-side implementations:
-- Form-submission for activating a strategy with a ticker and exchange account.
-- Charts and tables for strategy-backtesting analysis.
-- SQL queries for saving information to database tables.
+## Rough breakdown of tasks
+- Create low-timeframe (minutes) trading strategy for testing and presentation *- John*
+- Create smart contract for minting project token. *- Dmitry*
+- Create smart contract for subscribing to strategy notifications. (Monthly and yearly fixed fees) *- Andrea*
+- Create layout for strategy creation. *- Julian*
+- Create API connections for notification methods. (E.g. Telegram, Discord, SMS, etc.) *- Wanlin*
