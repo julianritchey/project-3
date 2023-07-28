@@ -37,4 +37,15 @@ Similar to other oscillators, divergence between the KDJ lines and the price mov
 When the %K line crosses above the %D line, it generates a bullish signal, suggesting a potential buy signal.
 When the %K line crosses below the %D line, it generates a bearish signal, suggesting a potential sell signal.
 
+## Case portfolio
+As the case portfolio, we have a stock portfolio including TSLA, AAPL, and NVDA. We apply the MACD, Trix, and KDJ strategies to each stock, and we choose the backtest period from 2023.01.01 to 2023.07.25. After evaluating the portfolio, we obtained the following results:
+
+Annualized Return: 56%
+Cumulative Returns: 35%
+Annual Volatility: 14%
+Sharpe Ratio: 3.87
+Sortino Ratio: 7.83
+
+These evaluation metrics provide insights into the performance of the portfolio and the effectiveness of the applied trading strategies. The "Annualized Return" represents the average annual return of the portfolio during the backtest period. The "Cumulative Returns" show the total returns achieved over the entire period. The "Annual Volatility" indicates the risk or variability of the portfolio's returns. A higher Sharpe Ratio suggests better risk-adjusted performance, while a higher Sortino Ratio indicates better risk-adjusted returns with a focus on downside risk. By combining different strategies for each stock, we aim to achieve better investment returns and optimize the portfolio's overall performance.
+
 
