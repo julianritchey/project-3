@@ -1,3 +1,32 @@
 Contract Address
 
 0xDf8cb32D719534269147aDcFF3D89D014227cb28
+
+
+Functions to create the buttons of:
+
+- Buy Tokens (buyTokens) //Allows the users to buy tokens based on the price of the token. 
+The user will have to send a value in a message with the wei/ether amount that they want to spend on tokens
+
+- Mint (mint) //Allows to mint more tokens - //Takes the address of the account trying to mint (should have permission to mint) and the amount of tokens to mint
+
+- Set Token Price (setTokenPrice) - //Set the new price of the token in wei
+
+- Withdraw (withdraw) //Allows the owner to withdraw Ether from the contract address
+
+- Transfer Tokens (transferFrom) //Sends the certain amouunt of tokens (amount) from Sender (sender) to Receiver (recipient)
+
+- Check Balance (balanceOf) //Checks the amount of tokens that a certain account has - need to choose the address (address)
+
+- Can I Mint? (isMinter) //Checks whether the address (address) is able to mint the tokens or not 
+
+- Name (name)
+
+- Owner (owner)
+
+- Symbol (symbol)
+
+- Token Price (tokenPrice)
+
+- Total Supply (totalSupply)
+
