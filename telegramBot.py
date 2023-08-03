@@ -39,15 +39,6 @@ def about(update, context):
 """)
 
 
-def get_userId(TOKEN):
-    # Getting your (client's) chat ID
-    #  This chat ID will be used in function ---> send_one_message(TOKEN, chat_id, message)
-    url = f"https://api.telegram.org/bot{TOKEN}/getUpdates"
-    print(requests.get(url).json())
-    return requests.get(url).json()
-    # Note: if you don’t send your Telegram bot a message, your results might be empty
-
-
 updater = Updater(TOKEN)
 disp = updater.dispatcher
 
