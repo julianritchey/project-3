@@ -7,6 +7,7 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler
 import os
 from dotenv import load_dotenv
+import requests
 load_dotenv()
 
 TOKEN = os.getenv('teleToken')
@@ -36,6 +37,15 @@ def about(update, context):
         /trading-strategies -> A set of trading strategies along with a tool for backtesting the strategies.
         /buy-sell ->  An interface for buying or selling market assets through a connected exchange.
 """)
+
+
+def get_userId(TOKEN):
+    # Getting your (client's) chat ID
+    #  This chat ID will be used in function ---> send_one_message(TOKEN, chat_id, message)
+    url = f"https://api.telegram.org/bot{TOKEN}/getUpdates"
+    print(requests.get(url).json())
+    # Note: if you don’t send your Telegram bot a message, your results might be empty
+    # Q: How to get the user's Id ?ß
 
 
 updater = Updater(TOKEN)

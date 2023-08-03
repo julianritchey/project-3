@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from discordwebhook import Discord
 load_dotenv()
 
+# Send message to channel
+
 
 def send_notification(url):
     # send message for our club and community
