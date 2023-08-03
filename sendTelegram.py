@@ -11,7 +11,7 @@ def get_userId(TOKEN):
     url = f"https://api.telegram.org/bot{TOKEN}/getUpdates"
     print(requests.get(url).json())
     # Note: if you don’t send your Telegram bot a message, your results might be empty
-    # Q: How to get the user's Id
+    # Q: How to get the user's Id ?
 
 
 # Sending your Telegram message using Python
@@ -26,3 +26,4 @@ if __name__ == '__main__':
     chat_id = os.getenv("test_teleID")
     message = "hello from your telegram bot"
     send_one_message(TOKEN, chat_id, message)
+    get_userId(TOKEN)
