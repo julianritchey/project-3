@@ -33,9 +33,9 @@ def about(update, context):
         
         /summary -> A summary of current investments held in multiple exchanges.
         /portfolio -> A portfolio planner for analyzing and simulating theoretical portfolios.
-        /market-predictor -> A market predictor for viewing potential market movement.
-        /trading-strategies -> A set of trading strategies along with a tool for backtesting the strategies.
-        /buy-sell ->  An interface for buying or selling market assets through a connected exchange.
+        /marketPredictor -> A market predictor for viewing potential market movement.
+        /tradingStrategies -> A set of trading strategies along with a tool for backtesting the strategies.
+        /buySell ->  An interface for buying or selling market assets through a connected exchange.
 """)
 
 
