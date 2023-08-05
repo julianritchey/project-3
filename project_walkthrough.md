@@ -34,7 +34,7 @@ On the right-hand side of the navbar, connected users can find their avatar. Upo
 ## Dashboard page
 
 ![Portfolio planner page](miscellaneous/idv3_dashboard_page.png)  
-The `Dashboard` link in the navbar takes users to the _Dashboard_ page (undeveloped) where they are provided a simple welcome card.
+The `Dashboard` link in the navbar takes users to the _Dashboard_ page (undeveloped) where they are currently provided a simple welcome card.
 
 ## Get tokens page
 
@@ -136,13 +136,13 @@ The `Strategy creation` link in the _Strategies_ sidebar takes users to the _Str
 
 ![Admin page](miscellaneous/idv3_admin_page_01.png)
 
-![Minting tokens 01](miscellaneous/idv3_minting_tokens_01.png)
+![Token minting 01](miscellaneous/idv3_token_minting_01.png)
 
-![Minting tokens 02](miscellaneous/idv3_minting_tokens_02.png)
+![Token minting 02](miscellaneous/idv3_token_minting_02.png)
 
-![Minting tokens 03](miscellaneous/idv3_minting_tokens_03.png)
+![Token minting 03](miscellaneous/idv3_token_minting_03.png)
 
-![Minting tokens 04](miscellaneous/idv3_minting_tokens_04.png)
+![Token minting 04](miscellaneous/idv3_token_minting_04.png)
 
 ![Setting token price 01](miscellaneous/idv3_setting_token_price_01.png)
 
