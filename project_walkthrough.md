@@ -115,42 +115,44 @@ To subscribe to a strategy, users can click the `Subscribe` button in the strate
 
 Users can select the option of their choosing by clicking the appropriate `Subscribe` button.
 
-![Strategy subscription 02](miscellaneous/idv3_strategy_subscription_02.png)
-After a user has clicked the `Subscribe` button for their desired subscription plan, a transacation confirmation modal is displayed by the user' wallet provider.
+| ![Strategy subscription 02](miscellaneous/idv3_strategy_subscription_02.png) | ![Strategy subscription 03](miscellaneous/idv3_strategy_subscription_03.png) |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 
-![Strategy subscription 03](miscellaneous/idv3_strategy_subscription_03.png)
-Upon confirming the transaction, users will see a `Subscribed` notice in the strategy details card of the _Strategy details_ subpage, along with an `Unsubscribe` button that users can click to unsubscribe from the assoicated trading strategy.
+After users have clicked the `Subscribe` button for their desired subscription plan, a transacation confirmation modal is displayed by their wallet provider. Upon confirming the transaction, users will see a `Subscribed` notice in the strategy details card of the _Strategy details_ subpage, along with an `Unsubscribe` button that users can click to unsubscribe from the associated trading strategy.
 
 ## Strategy creation page
 
 ![Strategy creation page](miscellaneous/idv3_strategy_creation_page.png)  
-The `Strategy creation` link in the _Strategies_ sidebar takes users to the _Strategy creation_ page where they are provided a strategy backtest card, a dependency creation card, and a dependencies card. For details on the strategy backtest card, see the [strategy backtest](https://github.com/julianritchey/project-3/project_walkthrough.mb#strategy-backtest) section.
+The `Strategy creation` link in the _Strategies_ sidebar takes users to the _Strategy creation_ page (partly-developed) where they are provided a strategy backtest card, a dependency creation card, and a dependencies card. For details on the strategy backtest card, see the [strategy backtest](https://github.com/julianritchey/project-3/project_walkthrough.mb#strategy-backtest) section.
 
 ### Strategy creation
 
-![Strategy creation 01](miscellaneous/idv3_strategy_creation_01.png)
+![Strategy creation 01](miscellaneous/idv3_strategy_creation_01.png)  
+The dependency creation card provides users a form by which they can create strategy dependencies. A strategy dependency consists a combination of conditions and/or indicators that, when combined, identify one or more potential entry and/or exit signals. An example might be when the 7-day EMA crosses over the 3-month EMA.
 
-![Strategy creation 02](miscellaneous/idv3_strategy_creation_02.png)
+![Strategy creation 02](miscellaneous/idv3_strategy_creation_02.png)  
+The dependencies card lists all dependencies the user has created for a single strategy.
 
 ## Admin page
 
-![Admin page](miscellaneous/idv3_admin_page.png)
+![Admin page](miscellaneous/idv3_admin_page.png)  
+If the wallet that is connected to the application is listed as having contract authority, the user will be provided access to the _Admin page_ in the _Tokens_ section. The _Admin page_ provides the user a token data card, a subscription data card, a token minting card, and a token pricing card.
 
 ![Token minting 01](miscellaneous/idv3_token_minting_01.png)
+The token minting card provides admin users a token minting form in which they can enter the amount of tokens they wish to mint, then mint them by clicking the `Mint` button.
 
-![Token minting 02](miscellaneous/idv3_token_minting_02.png)
+| ![Token minting 02](miscellaneous/idv3_token_minting_02.png) | ![Token minting 03](miscellaneous/idv3_token_minting_03.png) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-![Token minting 03](miscellaneous/idv3_token_minting_03.png)
-
-![Token minting 04](miscellaneous/idv3_token_minting_04.png)
+After an admin user has clicked the `Mint` button, a transacation confirmation modal is displayed by the user's wallet provider. Upon confirming the transaction, the `Token total supply` and `Token available supply` fields in the token data card are updated accordingly.
 
 ![Setting token price 01](miscellaneous/idv3_setting_token_price_01.png)
+The token pricing card provides admin users a token pricing form in which they can enter the price per ETH they wish to charge for one IDT, then set the price by clicking the `Set price` button.
 
-![Setting token price 02](miscellaneous/idv3_setting_token_price_02.png)
+| ![Setting token price 02](miscellaneous/idv3_setting_token_price_02.png) | ![Setting token price 03](miscellaneous/idv3_setting_token_price_03.png) |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
 
-![Setting token price 03](miscellaneous/idv3_setting_token_price_03.png)
-
-![Setting token price 04](miscellaneous/idv3_setting_token_price_04.png)
+After an admin user has clicked the `Set price` button, a transacation confirmation modal is displayed by the user's wallet provider. Upon confirming the transaction, the `Token price` fields in the token data card are updated accordingly.
 
 ## Logging out
 
