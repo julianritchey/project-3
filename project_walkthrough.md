@@ -123,7 +123,7 @@ After users have clicked the `Subscribe` button for their desired subscription p
 ## Strategy creation page
 
 ![Strategy creation page](miscellaneous/idv3_strategy_creation_page.png)  
-The `Strategy creation` link in the _Strategies_ sidebar takes users to the _Strategy creation_ page (partly-developed) where they are provided a strategy backtest card, a dependency creation card, and a dependencies card. For details on the strategy backtest card, see the [strategy backtest](https://github.com/julianritchey/project-3/project_walkthrough.mb#strategy-backtest) section.
+The `Strategy creation` link in the _Strategies_ sidebar takes users to the _Strategy creation_ page (partly-developed) where they are provided a strategy backtest card, a dependency creation card, and a dependencies card. For details on the strategy backtest card, see the [strategy backtest](https://github.com/julianritchey/project-3/blob/main/project_walkthrough.md#strategy-backtest) section.
 
 ### Strategy creation
 
@@ -138,6 +138,8 @@ The dependencies card lists all dependencies the user has created for a single s
 ![Admin page](miscellaneous/idv3_admin_page.png)  
 If the wallet that is connected to the application is listed as having contract authority, the user will be provided access to the _Admin page_ in the _Tokens_ section. The _Admin page_ provides the user a token data card, a subscription data card, a token minting card, and a token pricing card.
 
+### Token minting
+
 ![Token minting 01](miscellaneous/idv3_token_minting_01.png)
 The token minting card provides admin users a token minting form in which they can enter the amount of tokens they wish to mint, then mint them by clicking the `Mint` button.
 
@@ -146,11 +148,13 @@ The token minting card provides admin users a token minting form in which they c
 
 After an admin user has clicked the `Mint` button, a transacation confirmation modal is displayed by the user's wallet provider. Upon confirming the transaction, the `Token total supply` and `Token available supply` fields in the token data card are updated accordingly.
 
-![Setting token price 01](miscellaneous/idv3_setting_token_price_01.png)
+### Token pricing
+
+![Token pricing 01](miscellaneous/idv3_token_pricing_01.png)
 The token pricing card provides admin users a token pricing form in which they can enter the price per ETH they wish to charge for one IDT, then set the price by clicking the `Set price` button.
 
-| ![Setting token price 02](miscellaneous/idv3_setting_token_price_02.png) | ![Setting token price 03](miscellaneous/idv3_setting_token_price_03.png) |
-| ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| ![Token pricing 02](miscellaneous/idv3_token_pricing_02.png) | ![Token pricing price 03](miscellaneous/idv3_token_pricing_03.png) |
+| ------------------------------------------------------------ | ------------------------------------------------------------------ |
 
 After an admin user has clicked the `Set price` button, a transacation confirmation modal is displayed by the user's wallet provider. Upon confirming the transaction, the `Token price` fields in the token data card are updated accordingly.
 
