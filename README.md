@@ -1,9 +1,8 @@
-
 ## ![Logotype](assets/logotype_id_dark_150.png)
 
 A Flash/React web-application designed for
 
-- designing and developing custom trading strategies;
+- drafting and developing custom trading strategies;
 - backtesting trading strategies;
 - subscribing to trading strategy notifications;
 - leveraging blockchain contracts for investment purposes.
@@ -106,17 +105,17 @@ Python's adaptability and integration of libraries and APIs make it a powerful t
 
 ### Further information
 
-For further information, please refer to our PowerPoint presentations for [project 1](miscellaneous/Investor's%20Dream%201.0%20FinTech%20Project%201.pptx), [project 2](miscellaneous/Investor's%20Dream%202.0%20FinTech%20Project%202.pptx) and [project 3](miscellaneous/Investor's%20Dream%202.0%20FinTech%20Project%203.pptx).
+For further information, please refer to our PowerPoint presentations for [project 3](miscellaneous/Investor's%20Dream%202.0%20FinTech%20Project%203.pptx), [project 2](miscellaneous/Investor's%20Dream%202.0%20FinTech%20Project%202.pptx) and [project 1](miscellaneous/Investor's%20Dream%201.0%20FinTech%20Project%201.pptx).
 
 ## Running the application
 
 Version 3 of the application requires the use of a localhost Flask server for the backend, a localhost Node.js server for the frontend, all documents within this repository, the necessary API credentials, and a PostgreSQL database designed according to [our schema](miscellaneous/database_schema.svg).
 
-Version 1 of the application can still be found at the following url:
-https://github.com/julianritchey/project-1
-
 Version 2 of the application can still be found at the following url:
 https://github.com/julianritchey/project-2
+
+Version 1 of the application can still be found at the following url:
+https://github.com/julianritchey/project-1
 
 ## Application walkthrough
 
@@ -126,33 +125,59 @@ Please refer to our [project walkthrough](project_walkthrough.md) for detailed i
 
 Investor's Dream facilitate investments through strategy development and implementation via manual and algorithmic trading and smart contracts.
 
-## Resources and technology employed
+## Resources and technology employed (tech stack)
 
-![Tools used](miscellaneous/tools_used.png)
+![Tech stack](miscellaneous/tech_stack.png)
 
+- [APIs](https://www.ibm.com/topics/api)
+  - [Alpaca](https://alpaca.markets/)
+  - [Telegram](https://telegram.org/)
 - [CSS](https://drafts.csswg.org/)
 - [HTML](https://html.spec.whatwg.org/)
 - [JavaScript](https://www.javascript.com/)
-  - [Plotly](https://plotly.com/)
+  - [Axios](https://axios-http.com/)
+  - [ethers](https://ethers.org/)
   - [React](https://react.dev/)
-- [JSON](https://www.json.org/)
+    - [Chakra UI](https://chakra-ui.com/)
+    - [Chakra UI Markdown Renderer](https://github.com/mustaphaturhan/chakra-ui-markdown-renderer)
+    - [React Hook Form](https://www.react-hook-form.com/)
+    - [React Icons](https://github.com/react-icons/react-icons#readme)
+    - [React Plotly.js](https://plotly.com/javascript/react/)
+    - [React Router](https://github.com/remix-run/react-router)
+    - [react-markdown](https://github.com/remarkjs/react-markdown#readme)
+    - [react-moment](https://github.com/headzoo/react-moment)
+    - [web3-react](https://github.com/Uniswap/web3-react#readme)
+  - [Moment.js](https://momentjs.com/)
+  - [ms](https://github.com/vercel/ms)
+  - [TanStack Query](https://tanstack.com/query/latest)
+  - [TypeScript](https://www.typescriptlang.org/)
+    - [Viem](https://viem.sh/)
+    - [Zod](https://zod.dev/)
+  - [wagmi](https://wagmi.sh/)
+  - [Web3.js](https://github.com/web3/web3.js#readme)
+  - [Zustand](https://github.com/pmndrs/zustand)
 - [Python](https://www.python.org/)
-  - [APIs](https://www.ibm.com/topics/api)
-    - [Alpaca](https://alpaca.markets/)
-  - [Finta](https://github.com/peerchemist/finta)
+  - [alpaca-py](https://github.com/alpacahq/alpaca-py)
+  - [datetime](https://docs.python.org/3/library/datetime.html)
+  - [discord.py](https://github.com/Rapptz/discord.py)
+  - [discordwebhook](https://github.com/10mohi6/discord-webhook-python)
+  - [email.message](https://docs.python.org/3/library/email.message.html)
   - [Flask](https://flask.palletsprojects.com/)
-  - [Holoviews](https://www.holoviews.org/)
-  - [Imbalanced-Learn](https://github.com/scikit-learn-contrib/imbalanced-learn)
-  - [Keras](https://keras.io/)
+  - [Flask-CORS](https://github.com/corydolphin/flask-cors)
+  - [ipynb](https://github.com/ipython/ipynb)
   - [Matplotlib](https://matplotlib.org/)
-  - [Monte Carlo simulator](https://www.investopedia.com/terms/m/montecarlosimulation.asp)
-  - [Numpy](https://numpy.org/)
-  - [Pandas](https://pandas.pydata.org/)
-  - [Scikit-Learn](https://scikit-learn.org/)
+  - [NumPy](https://numpy.org/)
+  - [os](https://docs.python.org/3/library/os.html)
+  - [pandas](https://pandas.pydata.org/)
+  - [python-dotenv](https://github.com/theskumar/python-dotenv)
+  - [python-telegram-bot](https://python-telegram-bot.org/)
+  - [smtplib](https://docs.python.org/3/library/smtplib.html)
   - [SQLAlchemy](https://www.sqlalchemy.org/)
   - [TA-Lib](https://github.com/ta-lib/ta-lib-python)
-  - [Tensorflow](https://www.tensorflow.org/)
-  - [YFinance](https://github.com/ranaroussi/yfinance)
+  - [twilio-python](https://github.com/twilio/twilio-python/)
+  - [uuid](https://docs.python.org/3/library/uuid.html)
+  - [websocket-client](https://github.com/websocket-client/websocket-client)
+  - [yfinance](https://github.com/ranaroussi/yfinance)
 - [SQL](https://www.iso.org/standard/63555.html)
   - [PostgreSQL](https://www.postgresql.org/)
 
