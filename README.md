@@ -105,7 +105,7 @@ Python's adaptability and integration of libraries and APIs make it a powerful t
 
 ### Further information
 
-For further information, please refer to our PowerPoint presentations for [project 3](miscellaneous/Investor's%20Dream%202.0%20FinTech%20Project%203.pptx), [project 2](miscellaneous/Investor's%20Dream%202.0%20FinTech%20Project%202.pptx) and [project 1](miscellaneous/Investor's%20Dream%201.0%20FinTech%20Project%201.pptx).
+For further information, please refer to our PowerPoint presentations for [project 3](miscellaneous/Investor's%20Dream%203.0%20FinTech%20Project%203.pptx), [project 2](miscellaneous/Investor's%20Dream%202.0%20FinTech%20Project%202.pptx) and [project 1](miscellaneous/Investor's%20Dream%201.0%20FinTech%20Project%201.pptx).
 
 ## Running the application
 
