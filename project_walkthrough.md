@@ -134,7 +134,7 @@ The `Strategy creation` link in the _Strategies_ sidebar takes users to the _Str
 
 ## Admin page
 
-![Admin page](miscellaneous/idv3_admin_page_01.png)
+![Admin page](miscellaneous/idv3_admin_page.png)
 
 ![Token minting 01](miscellaneous/idv3_token_minting_01.png)
 
