@@ -1,6 +1,6 @@
 ## ![Logotype](assets/logotype_id_dark_150.png)
 
-A Flash/React web-application designed for
+A Flask/React web-application designed for
 
 - drafting and developing custom trading strategies;
 - backtesting trading strategies;
